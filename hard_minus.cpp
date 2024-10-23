@@ -8,8 +8,6 @@ using namespace std;
 int main() {
     vector<int> ls = {1, 2, 4, 5, 1, 7, 4, 9, 4, 0, 4};
 
-    sort(ls.begin(), ls.end());
-
     unordered_map<int, int> dct;
 
     for (int i = 1; i < ls.size(); ++i) {
